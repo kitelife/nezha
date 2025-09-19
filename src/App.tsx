@@ -76,6 +76,7 @@ function FixVideoForm() {
     setResultHidden(false);
   };
   const onSelectVideoList = async () => {
+    setVideos("");
     const files = await open({
       multiple: true,
       directory: false,
