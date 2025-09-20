@@ -50,7 +50,7 @@ function FixVideoForm() {
     }
     setProgressHidden(false);
     let videoList = videos.split('\n');
-    let progressStep = 100 / videoList.length;
+    let progressStep = Math.ceil(100 / videoList.length);
     for (const ele of videoList) {
       let last_slash_idx = ele.lastIndexOf(os === "windows" ? '\\' : '/');
       let video_file_name = ele.substring(last_slash_idx+1, ele.length);
