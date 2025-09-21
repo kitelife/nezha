@@ -2,3 +2,6 @@
 
 - 基于  [Tauri](https://tauri.app/) 实现。
 - 推荐开发环境：[VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+
+- `pnpm tauri dev`
+- `pnpm tauri build`
